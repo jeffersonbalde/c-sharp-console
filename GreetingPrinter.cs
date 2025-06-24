@@ -20,5 +20,11 @@ namespace Hello_World
             Console.WriteLine("Goodbye, World!");
             Console.WriteLine("See you next time!");
         }
+
+
+        // OUTPUT
+        // Hello, World!
+        // Welcome to the C# programming world!
+        // Let's start coding!
     }
 }

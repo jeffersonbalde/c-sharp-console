@@ -76,6 +76,11 @@ namespace Hello_World
             var greetings = new GreetingPrinter();
             greetings.PrintGreetings();
 
+            Console.WriteLine();
+
+            var printPattern = new DescendingStarPattern();
+            printPattern.PrintPattern();
+
 
             
 
