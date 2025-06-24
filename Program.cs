@@ -73,13 +73,20 @@ namespace Hello_World
 
 
 
+            Console.WriteLine("Greetings");
             var greetings = new GreetingPrinter();
             greetings.PrintGreetings();
 
             Console.WriteLine();
+            Console.WriteLine("Descending Pattern");
+            var descendingPattern = new DescendingStarPattern();
+            descendingPattern.PrintPattern();
 
-            var printPattern = new DescendingStarPattern();
-            printPattern.PrintPattern();
+
+            Console.WriteLine();
+            Console.WriteLine("Ascending Pattern");
+            var ascendingPattern = new AscendingNumberTriangle();
+            ascendingPattern.PrintPattern();
 
 
             

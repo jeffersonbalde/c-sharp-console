@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AscendingNumberTriangle.cs" />
     <Compile Include="DescendingStarPattern.cs" />
     <Compile Include="GreetingPrinter.cs" />
     <Compile Include="Program.cs" />

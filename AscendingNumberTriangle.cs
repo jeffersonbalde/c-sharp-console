@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hello_World
 {
-    internal class DescendingStarPattern
+    internal class AscendingNumberTriangle
     {
         public void PrintPattern()
         {
+
             int row;
 
             while (true)
@@ -24,7 +25,7 @@ namespace Hello_World
 
             for (int i = 1; i <= row; i++)
             {
-                for (int j = row; j >= i; j--)
+                for (int j = 1; j <= i; j++)
                 {
                     Console.Write(i + " ");
                 }
@@ -32,13 +33,11 @@ namespace Hello_World
             }
 
             // OUTPUT
-
-            // 1 1 1 1 1
-            // 2 2 2 2
+            // 1
+            // 2 2
             // 3 3 3
-            // 4 4
-            // 5
-
+            // 4 4 4 4
+            // 5 5 5 5 5
         }
     }
 }
